@@ -58,14 +58,14 @@ class Nav extends Component {
           <Collapse in={this.state.equipmentMasterMenuOpen}>
             <div>
               <ul className="nav">
-                <li className={this.isPathActive('/equipmentMaster/category') ? 'active' : null}>
-                  <Link to="/equipmentMaster/category">Category</Link>
+                <li className={this.isPathActive('/equipmentMaster/regular-tables') ? 'active' : null}>
+                  <Link to="/tables/regular-tables">Category</Link>
                 </li>
-                <li className={this.isPathActive('/equipmentMaster/subcategory') ? 'active' : null}>
-                  <Link to="/equipmentMaster/subcategory">Subcategory</Link>
+                <li className={this.isPathActive('/equipmentmaster/extended-tables') ? 'active' : null}>
+                  <Link to="/tables/extended-tables">Subcategory</Link>
                 </li>
-                <li className={this.isPathActive('/equipmentMaster/equipment') ? 'active' : null}>
-                  <Link to="/equipmentMaster/equipment">Equipment</Link>
+                <li className={this.isPathActive('/equipmentMaster/react-bootstrap-table') ? 'active' : null}>
+                  <Link to="/tables/react-bootstrap-table">Equipment</Link>
                 </li>                
               </ul>
             </div>
@@ -225,6 +225,7 @@ class Nav extends Component {
             </div>
           </Collapse>
         </li>
+
         <li className={this.isPathActive('/maps') || this.state.mapMenuOpen ? 'active' : null}>
           <a onClick={() => this.setState({ mapMenuOpen: !this.state.mapMenuOpen })} data-toggle="collapse">
             <i className="pe-7s-map-marker"></i>

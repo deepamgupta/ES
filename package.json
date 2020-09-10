@@ -18,7 +18,6 @@
     "classnames": "^2.2.5",
     "css-loader": "0.28.4",
     "dotenv": "^4.0.0",
-    "eslint": "4.19.1",
     "eslint-config-react-app": "^2.0.0",
     "eslint-loader": "1.9.0",
     "eslint-plugin-flowtype": "2.35.0",
@@ -65,7 +64,6 @@
     "sweetalert-react": "^0.4.10",
     "url-loader": "0.5.9",
     "webpack": "3.5.1",
-    "webpack-dev-server": "2.7.1",
     "webpack-manifest-plugin": "1.2.1",
     "whatwg-fetch": "2.0.3"
   },
